@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  background-color: rgb(244, 208, 78);
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h3,
+p {
+  display: inline;
+  max-width: 336px;
+  margin: 0px;
+}
+
+.card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  padding: 24px;
+  box-shadow: 8px 8px black;
+  border-radius: 20px;
+  gap: 24px;
+}
+
+.card-body {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 12px;
+}
+.category {
+  background-color: rgb(244, 208, 78);
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+}
+.title{
+    transition: 300ms;
+    cursor: pointer;
+}
+.title:hover{
+    color: rgb(244, 208, 78);
+}
+
+
+
+/* Fonts */
+
+.figtree-text-preset-1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.figtree-text-preset-2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  color: rgb(107, 107, 107);
+  line-height: 150%;
+  font-weight: 500;
+}
+.figtree-text-preset-3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.figtree-text-preset-bold-3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
