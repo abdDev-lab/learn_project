@@ -16,7 +16,7 @@ p {
 }
 
 .card {
-  border:solid 1px black;
+  border: solid 1px black;
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -24,8 +24,10 @@ p {
   padding: 24px;
   box-shadow: 8px 8px black;
   border-radius: 20px;
+  margin: 24px;
   gap: 24px;
 }
+
 
 .card-body {
   display: flex;
@@ -42,18 +44,17 @@ p {
   display: flex;
   align-items: center;
   gap: 12px;
-  
 }
-.title{
-    transition: 300ms;
-    cursor: pointer;
+.title {
+  transition: 300ms;
+  cursor: pointer;
 }
-.title:hover{
-    color: rgb(244, 208, 78);
+.title:hover {
+  color: rgb(244, 208, 78);
 }
-
-
-
+.card-img{
+  width: 100%;
+}
 /* Fonts */
 
 .figtree-text-preset-1 {
@@ -79,3 +80,5 @@ p {
   font-size: 14px;
   font-weight: 800;
 }
+
+
